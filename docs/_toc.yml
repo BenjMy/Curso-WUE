@@ -1,0 +1,10 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: ES_espectro_vegetacion
+- file: ES_radiacion_neta
+- file: ES_sistemas_agroforestales
+- file: ES_turbulencia_y_calor_sensible
