@@ -1,3 +1,4 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BenjMy/Curso-WUE/main)
 # Curso sobre Teletedección Aplicada a la Eficiencia del Uso del Agua
 
 ## Introducción
