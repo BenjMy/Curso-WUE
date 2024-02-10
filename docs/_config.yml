@@ -8,7 +8,8 @@ logo: logo.png
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: cache
+  execute_notebooks: force
+  #execute_notebooks: cache
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -40,7 +41,9 @@ launch_buttons:
 
 sphinx:
   config:
-    html_extra_path: ['../functions/','../input/']
-    
-    
-    
+    html_extra_path: ['assets']
+    nb_ipywidgets_js:
+        # Load IPywidgets bundle for embedding.
+        "https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@1.09.0/dist/embed-amd.js":
+            "data-jupyter-widgets-cdn": "https://cdn.jsdelivr.net/npm/"
+            "crossorigin": "anonymous"

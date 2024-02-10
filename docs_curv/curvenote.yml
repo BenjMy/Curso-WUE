@@ -1,0 +1,18 @@
+version: 1
+site:
+  title: Curso WUE
+  options:
+    logo_text: EOMAJI
+    logo: ./images/EOAFRICA-logo.png
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://curvenote.com/docs/web
+  domains: []
+project:
+  title: Home
+  description: ''
+  short_title: ''
+  name: web
+  license: CC-BY-4.0
+  open_access: true

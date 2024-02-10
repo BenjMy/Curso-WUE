@@ -17,6 +17,7 @@ dependencies:
     - matplotlib
     - cdsapi
     - numba
+    - widgetsnbextension
     - pip:
         - git+https://github.com/hectornieto/pypro4sail
         - git+https://github.com/hectornieto/pyTSEB
