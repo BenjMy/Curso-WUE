@@ -42,8 +42,8 @@ launch_buttons:
 sphinx:
   config:
     html_extra_path: ['assets']
-    nb_ipywidgets_js:
+    #nb_ipywidgets_js:
         # Load IPywidgets bundle for embedding.
-        "https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@1.09.0/dist/embed-amd.js":
-            "data-jupyter-widgets-cdn": "https://cdn.jsdelivr.net/npm/"
-            "crossorigin": "anonymous"
+    #    "https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@1.09.0/dist/embed-amd.js":
+    #        "data-jupyter-widgets-cdn": "https://cdn.jsdelivr.net/npm/"
+    #        "crossorigin": "anonymous"

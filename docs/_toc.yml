@@ -4,6 +4,8 @@
 format: jb-book
 root: intro
 chapters:
+- file: ES_espectro_vegetacion_md
+- file: test
 - file: ES_espectro_vegetacion
 - file: ES_radiacion_neta
 - file: ES_sistemas_agroforestales
