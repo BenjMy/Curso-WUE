@@ -15,4 +15,10 @@ project:
   short_title: ''
   name: web
   license: CC-BY-4.0
-  open_access: true
+  open_access: true      
+  jupyter:
+    binder:
+      url: https://mybinder.org/
+      repo: BenjMy/Curso-WUE
+      ref: master
+      provider: github
