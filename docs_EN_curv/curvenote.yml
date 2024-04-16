@@ -1,0 +1,24 @@
+version: 1
+site:
+  title: Curso WUE
+  options:
+    logo_text: Curso WUE
+    logo: ./assets/input/figures/shuttleworth_wallace_model.png
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://curvenote.com/docs/web
+  domains: []
+project:
+  title: Home
+  description: ''
+  short_title: ''
+  name: web
+  license: CC-BY-4.0
+  open_access: true      
+  jupyter:
+    binder:
+      url: https://mybinder.org/
+      repo: BenjMy/Curso-WUE
+      ref: master
+      provider: github
